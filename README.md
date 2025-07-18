@@ -1,4 +1,4 @@
-# 📈 Forecasting S&P 500 Index Direction Using Economic and Asset Indicators
+# 📈 S&P 500 지수 방향성 예측을 위한 경제지표 기반 분류 모델링
 
 > 경제지표와 금융 자산 데이터를 활용한 S&P 500 단기 방향성 예측 머신러닝 프로젝트
 
@@ -60,16 +60,6 @@
 
 ---
 
-## 🛠 사용 라이브러리 및 환경
-
-```bash
-# Conda 환경 구성
-conda create -n sp500env python=3.9
-conda activate sp500env
-pip install -r requirements.txt
-
----
-
 ## 📁 폴더 구조
 sp500-direction-prediction/
 ├── README.md
@@ -87,3 +77,14 @@ sp500-direction-prediction/
 │   ├── ROC_Curve.png
 │   └── Precision_Recall.png
 ├── requirements.txt
+
+---
+
+## 🛠 사용 라이브러리 및 환경
+
+```bash
+# Conda 환경 구성
+conda create -n sp500env python=3.9
+conda activate sp500env
+pip install -r requirements.txt
+
