@@ -73,10 +73,10 @@
 sp500-direction-prediction/
 ├── README.md
 ├── notebooks/
-│   ├── 01_modeling.ipynb
+│   ├── modeling.ipynb
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── combined_data_with_pce/
+│   └── filtered_data_with_date_sp500/
 ├── reports/
 │   └── Project_Report.pdf
 ├── images/
