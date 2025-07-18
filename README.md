@@ -62,21 +62,21 @@
 
 ## 📁 폴더 구조
 sp500-direction-prediction/
-├── README.md
-├── notebooks/                 # EDA 및 모델링 코드
-│   ├── 01_eda.ipynb
-│   └── 02_modeling.ipynb
+├── README.md # 프로젝트 요약
+├── notebooks/ # EDA 및 모델링 코드
+│ ├── 01_modeling.ipynb
 ├── data/
-│   ├── raw/
-│   └── processed/
+│ ├── raw/ # 원본 데이터
+│ └── processed/ # 전처리된 데이터
 ├── reports/
-│   └── Project_Report.pdf     # 최종 결과보고서
-├── images/                    # 시각화 결과 이미지
-│   ├── feature.png
-│   ├── confusion.png
-│   ├── ROC_Curve.png
-│   └── Precision_Recall.png
-├── requirements.txt
+│ └── Project_Report.pdf # 최종 결과보고서
+├── images/ # 주요 시각화 결과 이미지
+│ ├── feature.png
+│ ├── confusion.png
+│ ├── ROC_Curve.png
+│ └── Precision_Recall.png
+├── requirements.txt # 실행 환경 패키지 목록
+└── .gitignore
 
 ---
 
