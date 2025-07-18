@@ -14,13 +14,13 @@
 ## 📘 주요 내용 요약
 
 - **📆 데이터 기간**: 2015.01.01 ~ 2024.12.31
-- **📊 입력 변수**:
+- **📊 입력 변수**
   - 금융 자산: VIX, 금, 구리, 원유, 국채 수익률 등
   - 거시경제 지표: CPI, 실업률, 소매판매, 기대 인플레이션 등
-- **🔧 전처리 및 엔지니어링**:
+- **🔧 전처리 및 엔지니어링**
   - 변화율, 이동평균, 변동성, 상호작용 변수 등 파생 변수 30여 개 생성
   - SMOTE로 클래스 불균형 보정, StandardScaler로 정규화
-- **🤖 모델링**:
+- **🤖 모델링**
   - Logistic Regression, Random Forest 적용
   - 시계열 특성을 고려한 시간순 분할 (train: 2015–2022 / test: 2023–2024)
 - **🎯 타겟 정의**: 다음 날 S&P500이 **0.2% 이상 상승하는지 여부 (binary classification)**
@@ -60,23 +60,34 @@
 
 ---
 
+## 📎 보고서 및 코드 링크
+
+- 📄 [최종 보고서 PDF](./reports/Project_Report.pdf)
+- 📓 분석 코드: [`notebooks/`](./notebooks/)
+
+---
+
 ## 📁 폴더 구조
+
+```
 sp500-direction-prediction/
-├── README.md # 프로젝트 요약
-├── notebooks/ # EDA 및 모델링 코드
-│ ├── 01_modeling.ipynb
+├── README.md
+├── notebooks/
+│   ├── 01_modeling.ipynb
 ├── data/
-│ ├── raw/ # 원본 데이터
-│ └── processed/ # 전처리된 데이터
+│   ├── raw/
+│   └── processed/
 ├── reports/
-│ └── Project_Report.pdf # 최종 결과보고서
-├── images/ # 주요 시각화 결과 이미지
-│ ├── feature.png
-│ ├── confusion.png
-│ ├── ROC_Curve.png
-│ └── Precision_Recall.png
-├── requirements.txt # 실행 환경 패키지 목록
+│   └── Project_Report.pdf
+├── images/
+│   ├── feature.png
+│   ├── confusion.png
+│   ├── ROC_Curve.png
+│   └── Precision_Recall.png
+├── requirements.txt
 └── .gitignore
+```
+
 
 ---
 
