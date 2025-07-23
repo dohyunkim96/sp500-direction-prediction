@@ -34,7 +34,7 @@
   - StandardScaler로 정규화  
   - SMOTE로 클래스 불균형 보정  
 - **모델링**
-  - 시계열 특성을 고려해 train(2015~2022) / test(2023~2024) 분할  
+  - 시계열 특성을 고려해 train(2015-2022) / test(2023-2024) 분할  
   - Logistic Regression / Random Forest 비교  
 
 | 모델             | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
