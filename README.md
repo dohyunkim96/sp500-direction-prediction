@@ -87,7 +87,7 @@ sp500-direction-prediction/
 ---
 
 ## 📄 보고서 및 코드  
-- 📘 [최종 보고서 PDF](./reports/Project_Report.pdf)  
+- 📘 [최종 보고서 PDF](./report/Project_Report.pdf)  
 - 📓 분석 코드: `notebooks/` 폴더 참고
 
 ---
