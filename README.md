@@ -8,7 +8,7 @@
 ## 📌 주요 결과 요약  
 - VIX, 금리, 원자재, 경제지표 등 30여 개 파생변수를 활용한 특성 엔지니어링 수행  
 - SMOTE를 통한 클래스 불균형 보정 및 시간순 분할(train/test)로 과최적화 방지  
-- Logistic Regression, Random Forest를 비교 분석 → RF 기준 AUC 0.94  
+- Logistic Regression, Random Forest를 비교 분석 → RF 기준 AUC 0.94, F1 Score 0.8714    
 - **변화율 기반 변수와 S&P 기술지표**가 예측에 가장 큰 영향
 
 ---
